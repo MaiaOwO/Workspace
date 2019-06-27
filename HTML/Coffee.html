@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+<iframe src="../Images/GIF.gif" width="608" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+<br>
+
+<p id="demo" style="font-family: Courier New;font-size: 30px"></p>
+<a href="https://www.youtube.com/watch?v=DSGyEsJ17cI" target="_blank"><button class="button">Music</button>></a>
+
+
+<script>
+	var time = 0;
+
+	setInterval(function(){ 
+	time = time + 1000; 
+ 	var minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+ 	var seconds = Math.floor((time % (1000 * 60)) / 1000);
+
+ 	document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
+ }, 1000);
+</script>
+
+</center>
+</body>
+</html>

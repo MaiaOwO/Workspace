@@ -1,0 +1,29 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../CSS/Timer.css">
+	</head>
+	<body>
+		
+	<div class="vertical-center">
+	<p id="demo" style="font-family: Courier Bold;font-size: 120px; color: white"></p>
+	<a href="https://www.youtube.com/watch?v=XULUBg_ZcAU" target="_blank"><button class="button">Music</button>></a>
+	</div>
+
+	<script>
+		var time = 0;
+
+		setInterval(function(){ 
+		time = time + 1000; 
+		var hours = Math.floor((time % (1000 * 60 * 60 * 60)) / (1000 * 60 * 60));
+	 	var minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+	 	var seconds = Math.floor((time % (1000 * 60)) / 1000);
+
+	 	document.getElementById("demo").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+	 }, 1000);
+	</script>
+
+
+	</body>
+	</html>
