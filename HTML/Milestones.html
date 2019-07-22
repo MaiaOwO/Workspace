@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Milestones</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/StudentRepresentation.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/Types.css">
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../CSS/StudentRepresentation.js"></script>
+  <script src="../CSS/Milestones.js"></script>
+  <header>Milestones</header>
+  <h1>Amount: </h1>
+  <h1 id="amount">0</h1>
+  
+<button type="open-button" class="open-button" onclick="createNew()">New milestone!</button>
+  <div class="form-popup" id="newProjectPopUp">
+   <form action="/action_page.php" class="form-container">
+    
+    <label for="ProjectTitle"><b>Title</b></label>
+    <input type="text" placeholder="Enter project title" name="ProjectTitle" required>
+
+    <label for="Description"><b>Description</b></label>
+    <input type="text" placeholder="Enter brief description" name="Description" required>
+
+    <button type="create" class="btn create" onclick="createMilestone(ProjectTitle,Description)">Create</button>
+    <button type="submit" class="btn cancel" onclick="cancel()">Cancel</button>
+  </form>
+</div> 
+
+</body>
+</html>
