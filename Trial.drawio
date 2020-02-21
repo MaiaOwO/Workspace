@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-21T15:57:14.867Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="mvPiA4ZPrFF2ReCZOC4l" version="12.7.3" type="github">
+<mxfile host="www.draw.io" modified="2020-02-21T15:57:28.430Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="dkOY9Wwt8JbjSIFFJAoc" version="12.7.3" type="github">
   <diagram id="OBTY19V2pep727sq7JFN" name="Page-1">
     <mxGraphModel dx="1365" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry x="330" y="440" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1PWrfDdkgmt_y7GgeJpY-35" value="Añadir tipo de Agrupación de Productos" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="140" width="90" height="50" as="geometry" />
+          <mxGeometry x="470" y="160" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1PWrfDdkgmt_y7GgeJpY-36" value="Añadir sub-Menú" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="155" width="90" height="50" as="geometry" />
