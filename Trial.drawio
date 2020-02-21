@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-21T19:47:32.707Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="RA4k8iAHOE2mCl1q3q30" version="12.7.3" type="github">
+<mxfile host="www.draw.io" modified="2020-02-21T19:48:09.822Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="0pGQt3TB2tEEo64fWlTt" version="12.7.3" type="github">
   <diagram id="OBTY19V2pep727sq7JFN" name="Page-1">
-    <mxGraphModel dx="1447" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2274" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,7 +299,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QZLc6Dcv_7mxusPoxPZv-2" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="630" width="30" height="60" as="geometry" />
+          <mxGeometry y="525" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QZLc6Dcv_7mxusPoxPZv-3" value="Autenticarse" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="535" width="90" height="50" as="geometry" />
